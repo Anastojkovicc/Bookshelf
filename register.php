@@ -1,5 +1,5 @@
 <?php
-include "fun/loggedInUser.php";
+require "fun/loggedInUser.php";
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 <?php
-include "fun/loggedInUser.php"
+include "fun/loggedInUser.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +23,14 @@ include "fun/loggedInUser.php"
     
     <div class="buttons-div">
         <input type="submit" value="LOGIN" class="button-login" name="login">
-        
+    <br>
+        <input type= "button" value="REGISTER" class="button-login" onclick="window.location.href='register.php'";>
+        <!-- Klikom na dugme za registraciju prelazimo na stranicu za registrovanje -->
     </div>
 
     </form>
+<?php 
+    include "fun/login.php";
+?> 
 </body>
 </html>

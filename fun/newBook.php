@@ -4,7 +4,7 @@ if(isset($_POST["addNew"])){
         $bookName= trim($_POST['bookName']);
         $author= trim($_POST['author']);
         $rating= trim($_POST['rating']);
-        $genre= $_POST['bookName'];
+        $genre= $_POST['genre'];
 
         include "fun/connect.php";
 

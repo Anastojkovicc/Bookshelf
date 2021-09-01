@@ -25,7 +25,7 @@ require "fun/notLoggedIn.php";
     <?php
    include "fun/connect.php";
    //Uzimamo iz baze sve knjige
-   $sql= "select * from knjige";
+   $sql= "select * from books";
    if(!$q= $mysqli -> query($sql)){
        echo "Query error";
    } 

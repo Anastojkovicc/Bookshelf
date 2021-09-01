@@ -1,7 +1,7 @@
 <?php
-$mysql_server= "localhost:8080";
+$mysql_server= "localhost";
 $mysql_user="root";
-$mysql_pass= "newpassword";
+$mysql_pass= "";
 $mysql_db= "bookshelf";
 $mysqli = new mysqli($mysql_server,$mysql_user,$mysql_pass,$mysql_db);
 

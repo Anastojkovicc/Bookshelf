@@ -32,7 +32,8 @@ require "fun/notLoggedIn.php";
         <option>Philosophy</option>
     </select>
     <br>
-    <input type="text" value="ADD NEW BOOK" class="button-new" name="addNew">
+    <br>
+    <input type="submit" value="ADD NEW BOOK" class="button-new" name="addNew">
 </form>
 
 <?php

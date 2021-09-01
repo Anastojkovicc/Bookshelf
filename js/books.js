@@ -4,5 +4,5 @@ function searchBooks(text){
     }, function (data,status){
         $("#bookTable").html(data);
     });
-
 }
+

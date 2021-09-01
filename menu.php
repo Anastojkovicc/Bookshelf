@@ -21,6 +21,15 @@ include "fun/notLoggedIn.php";
 <body>
 <h1>BOOKSHELF</h1>
 <ul>
+<a href="all.php">
+    <li>All</li>
+    </a>
+    <a href="addnew.php">
+    <li>Add new</li>
+    </a>
+    <a href="myshelf.php">
+    <li>Your books</li>
+    </a>
     <a href="index.php" onclick="logout()">
     <li>Log out</li>
     </a>

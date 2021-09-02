@@ -22,7 +22,6 @@ require "fun/loggedInUser.php";
     <p class="text-login">Repeat password:</p>
     <input type="password" class="input-login" name="passwordRepeat">
     <br>
-    <p class="error-login">Error</p>
 
     <div class="buttons-div">
         <input type="button" value="LOGIN" class="button-login" onclick="window.location.href='index.php'">

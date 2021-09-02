@@ -6,8 +6,7 @@ if(isset($_POST["addNew"])){
         $rating= trim($_POST['rating']);
         $genre= $_POST['genre'];
 
-        include "fun/connect.php";
-
+        include "connect.php";
         $sql="insert into books (name,author,rating,genre) values ('{$bookName}','{$author}','{$rating}','{$genre}')";
 
         if($mysqli -> query($sql)){

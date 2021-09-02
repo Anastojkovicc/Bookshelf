@@ -1,0 +1,59 @@
+body{
+    background-image: url("slike/pozadina.jpg");
+    text-align: center;
+    align-content: center;
+    font-family: Georgia, serif;
+}
+
+#login-form{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    color: wheat;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+.text-login{
+    font-size: 20px;
+}
+
+.input-login{
+    color:sienna;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: wheat;
+    border-color: sienna;
+}
+
+.buttons-div{
+    margin-top: 30px;
+}
+
+.button-login{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: sienna;
+    border-color: wheat;
+    color: wheat;
+    font-weight:bold;
+}
+
+.button-login:active{
+    background-color: wheat;
+    color: sienna;
+    border-color: wheat;
+}
+
+.button-login:hover{
+    width: 250px;
+    height: 30px;
+    background-color: wheat;
+    color: sienna;
+    border-color: wheat;
+}

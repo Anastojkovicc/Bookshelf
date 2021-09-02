@@ -6,7 +6,7 @@ if(isset($_POST['login'])){
     $username = strtolower(trim($_POST['username']));
     $password = trim($_POST['password']);
 
-    include "fun/connect.php";
+    include "connect.php";
 
     //Za uneseni username selektujemo korisnikov id, ime i sifru
     $sql = "SELECT korisnik_id, username, password FROM korisnik WHERE username='".$username."'";

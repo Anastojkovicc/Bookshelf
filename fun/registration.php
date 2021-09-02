@@ -7,7 +7,7 @@
 
             //Proveravamo da li je lozinka ista kao ponovljena lozinka
             if($password==$passwordRepeat){
-                include "fun/connect.php";
+                include "connect.php";
                 $sql= "INSERT INTO korisnik(username,password) values ('{$username}','{$password}')";
                 if($mysqli -> query($sql)){
                     echo "<script type= 'text/javascript'>alert('Registered');</script>";

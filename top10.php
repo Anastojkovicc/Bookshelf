@@ -15,6 +15,7 @@ require "fun/notLoggedIn.php";
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
 
+
 </head>
 
 <body>
@@ -24,8 +25,8 @@ require "fun/notLoggedIn.php";
     <?php
    include "fun/connect.php";
   
-   //Uzimamo iz baze sve knjige
-   $sql= "select * from books";
+   //Uzimamo iz baze 10 knjiga sa najvecom ocenom
+   $sql= "select * from books order by rating desc limit 10";
    if(!$q= $mysqli -> query($sql)){
        echo "Query error";
    } 
@@ -39,7 +40,6 @@ require "fun/notLoggedIn.php";
             <th>Author</th>
             <th>Genre</th>
             <th>Rating</th>
-            <th>Change rate</th>
             <th>Delete book</th>
         </thead>
         <tbody>
@@ -51,7 +51,6 @@ require "fun/notLoggedIn.php";
             <td><?php echo $row->author; ?></td>
             <td><?php echo $row->genre; ?></td>
             <td><?php echo $row->rating; ?></td>
-            <td> <a href="change.php?id=<?php echo $row->book_id?>"><img src="style/slike/ed.png" width="20px" alt="izmeni"></a></td>
             <td> <a href="delete.php?id=<?php echo $row->book_id?>"><img src="style/slike/b.png"  width="20px" alt="obrisi"></a></td>
         </tr>
         <?php

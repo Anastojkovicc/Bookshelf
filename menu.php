@@ -13,13 +13,13 @@ include "fun/notLoggedIn.php";
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
-    <script type="text/javascript">
+   
+   <script type="text/javascript">
     function logout(){
         $.get("fun/logout.php");
     }
     </script>
         
-
 </head>
 <body>
     <div class="men">
@@ -32,8 +32,8 @@ include "fun/notLoggedIn.php";
     <a href="all.php">
     <li>All</li>
     </a>
-    <a href="myshelf.php">
-    <li>Your books</li>
+    <a href="top10.php">
+    <li>Top 10</li>
     </a>
     <a href="index.php" onclick="logout()" class="logout">
     <li>Log out</li>

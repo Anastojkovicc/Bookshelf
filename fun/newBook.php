@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST["addNew"])){
-    if(trim($_POST['bookName'])!="" && trim($_POST['author'])!="" && trim($_POST['rating'])!="" && $_POST['genre']!="" ){
+    if(trim($_POST['bookName'])!="" && trim($_POST['author'])!="" && $_POST['genre']!="" ){
         $bookName= trim($_POST['bookName']);
         $author= trim($_POST['author']);
         $rating= trim($_POST['rating']);

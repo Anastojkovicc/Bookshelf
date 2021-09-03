@@ -35,6 +35,9 @@ include "fun/notLoggedIn.php";
     <a href="top10.php">
     <li>Top 10</li>
     </a>
+    <a href="unread.php">
+    <li>Unread</li>
+    </a>
     <a href="index.php" onclick="logout()" class="logout">
     <li>Log out</li>
     </a>

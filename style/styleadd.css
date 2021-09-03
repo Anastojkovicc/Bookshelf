@@ -1,0 +1,82 @@
+body{
+    background-image: url("slike/m.jpg") ;
+    background-size:cover;
+    text-align: center;
+    align-content: center;
+    font-family: Georgia, serif;
+    color: sienna;
+    font-size: 20px;
+    padding-top: 150px;
+}
+
+.input-new{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: sienna;
+    border-color: wheat 10px;
+    color: wheat;  
+}
+
+p{
+    font-size: 20px;
+    text-shadow: 2px 2px wheat;    
+}    
+
+select{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: sienna;
+    border-color: wheat 10px;
+    color: wheat;  
+}
+
+.button-new{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 4px;
+    background-color: wheat;
+    border-color: wheat 5px;
+    color: sienna;  
+    text-shadow: 1px 1px sienna; 
+}
+
+.button-new:active{
+    background-color: sienna;
+    color: wheat;
+    border-color: sienna;
+}
+
+.button-new:hover{
+    font-size: 20px;
+    background-color: sienna;
+    color: wheat;
+    border-color: sienna;
+}
+
+.back-button{
+    width: 50px;
+    font-size: 20px;
+    background-color: sienna;
+    color: wheat;
+    border-color: wheat 5px;
+    cursor: pointer;
+}
+
+.back-button:hover{
+    width: 50px;
+    font-size: 20px;
+    background-color: wheat;
+    color: sienna;
+    border-color: sienna 5px;
+    cursor: pointer;
+
+}

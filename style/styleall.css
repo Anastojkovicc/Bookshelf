@@ -1,0 +1,56 @@
+body{
+    background-image: url("slike/regi.jpg") ;
+    background-size:cover;
+    text-align: center;
+    align-content: center;
+    font-family: Georgia, serif;
+    margin-top: 80px;
+    color: sienna;
+    
+}
+
+table{
+    border-collapse: separate;
+    border-color: sienna;
+    border-radius: 25px;
+}
+
+table,th,td{
+    background-color: wheat;
+    text-align: center;
+    font-style: bold;
+    margin: auto;
+    width: 70%;
+    border: 1px solid sienna;
+    padding: 10px;
+}
+
+th{
+    background-color: sienna;
+    color: wheat;
+}
+
+thead{
+    cursor: default;
+}
+
+.back-button{
+    margin-bottom: 60px;
+    width: 50px;
+    font-size: 20px;
+    background-color: sienna;
+    color: wheat;
+    border-color: wheat 5px;
+    cursor: pointer;
+}
+
+.back-button:hover{
+    width: 50px;
+    font-size: 20px;
+    background-color: wheat;
+    color: sienna;
+    border-color: sienna 5px;
+    cursor: pointer;
+
+}
+

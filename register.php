@@ -9,10 +9,12 @@ require "fun/loggedInUser.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookshelf</title>
+    <link rel="stylesheet" href="style/styleregistration.css">
 </head>
 <body>
-<h1>BOOKSHELF</h1>
-    <form action="" method="post">
+
+    <form action="" method="post" class="regForm">
+    <h1>BOOKSHELF</h1>
     <p class="text-login">Username:</p>
     <input type="text" class="input-login" name="username">
     <br>

@@ -1,0 +1,51 @@
+body{
+    background-image: url("slike/lib.jpg") ;
+    background-size:cover;
+    text-align: center;
+    align-content: center;
+    font-family: Georgia, serif;
+    padding-top: 90px;
+}
+
+h1{
+    font-size: 30px;
+    color: wheat;
+    text-shadow: 2px 2px sienna; 
+}
+
+ul{
+    display: inline-block;
+    padding-left: 0px;
+}
+
+li{
+    color:sienna;
+    background-color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.men{
+    padding-top: 20px;
+    align-content: center;
+}
+
+.logout{
+    color:wheat;
+    background-color: sienna;
+}
+
+li:hover{
+    background-color: sienna;
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}

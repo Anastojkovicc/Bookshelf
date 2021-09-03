@@ -27,7 +27,7 @@ CREATE TABLE `books` (
   `rating` double DEFAULT NULL,
   `book_id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`book_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 /*Data for the table `books` */
 
@@ -45,7 +45,10 @@ insert  into `books`(`name`,`author`,`genre`,`rating`,`book_id`) values
 ('Romeo and Juliet','William Shakespeare','Classic',8.6,21),
 ('The Notebook','Nicholas Sparks','Romance',9.7,22),
 ('Steve Jobs','Walter Isaacson','Biography',7.5,23),
-('The Republic','Plato','Philosophy',8.3,24);
+('The Republic','Plato','Philosophy',8.3,24),
+('Zaoka','Sandra Braun','Thriller',7,25),
+('The reunion','Gijom Muso','Thriller',9.7,27),
+('Call from an Angel','Gijom Muso','Thriller',0,28);
 
 /*Table structure for table `korisnik` */
 
@@ -56,7 +59,7 @@ CREATE TABLE `korisnik` (
   `username` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`korisnik_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 /*Data for the table `korisnik` */
 
@@ -64,7 +67,8 @@ insert  into `korisnik`(`korisnik_id`,`username`,`password`) values
 (1,'ana','ana'),
 (2,'admin','admin'),
 (3,'admin1','admin1'),
-(4,'admin2','admin2');
+(4,'admin2','admin2'),
+(9,'admin3','admin3');
 
 /*Table structure for table `ocena` */
 

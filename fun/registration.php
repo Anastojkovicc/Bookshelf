@@ -1,6 +1,6 @@
 <?php
     if(isset($_POST['register'])){
-        if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['passwordRepeat']) && (isset($_POST['username'])=="" || isset($_POST['password'])=="" || isset($_POST['passwordRepeat'])=="")){
+        if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['passwordRepeat']) && (isset($_POST['username'])!="" || isset($_POST['password'])!="" || isset($_POST['passwordRepeat'])!="")){
             $username= strtolower(trim($_POST['username']));
             $password= trim($_POST['password']);
             $passwordRepeat= trim($_POST['passwordRepeat']);

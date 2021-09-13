@@ -4,9 +4,12 @@ body{
     text-align: center;
     align-content: center;
     font-family: Georgia, serif;
-    margin-top: 80px;
     color: sienna;
-    
+   
+}
+
+.forma{
+    margin-top: 80px;
 }
 
 table{
@@ -53,4 +56,3 @@ thead{
     cursor: pointer;
 
 }
-

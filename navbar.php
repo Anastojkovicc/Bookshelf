@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar" style="color: white">
             <ul class="nav">
                 <li><a href="menu.php">Menu</a></li>
                 <li><a href="addnew.php">Add</a></li>

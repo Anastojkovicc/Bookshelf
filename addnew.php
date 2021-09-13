@@ -14,13 +14,14 @@ require "fun/notLoggedIn.php";
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/navbar.css">
 
 </head>
 <body>
     <div id="navbar"></div>
 <!-- Dugme za povratak -->
 <input type="button" value="&#8592;" class="back-button" onclick="window.location.href='menu.php'">
-<form action="" method="post">
+<form action="" method="post" class="forma">
     <p>Name:</p>
     <input type="text" class="input-new" name="bookName">
     <p>Author:</p>

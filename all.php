@@ -18,6 +18,7 @@ require "fun/notLoggedIn.php";
 </head>
 
 <body>
+    <div id="navbar"></div>
     <!-- Dugme za povratak -->
     <input type="button" value="&#8592;" class="back-button" onclick="window.location.href='menu.php'">
 
@@ -64,5 +65,19 @@ require "fun/notLoggedIn.php";
    }
    $mysqli -> close();
     ?>
+
+<script>
+       function navbar(){
+           $.ajax({
+               url:"navbar.php",
+               success: function(html){
+                   $("#navbar").html(html);
+               }
+           })
+       }
+    </script>
+        <script>
+        navbar();
+        </script>
 </body>
 </html>

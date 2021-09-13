@@ -10,9 +10,14 @@ require "fun/notLoggedIn.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookshelf</title>
     <link rel="stylesheet" href="style/styleadd.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 
 </head>
 <body>
+    <div id="navbar"></div>
 <!-- Dugme za povratak -->
 <input type="button" value="&#8592;" class="back-button" onclick="window.location.href='menu.php'">
 <form action="" method="post">
@@ -41,6 +46,18 @@ require "fun/notLoggedIn.php";
 <?php
     include "fun/newBook.php";
 ?>
-    
+    <script>
+       function navbar(){
+           $.ajax({
+               url:"navbar.php",
+               success: function(html){
+                   $("#navbar").html(html);
+               }
+           })
+       }
+    </script>
+        <script>
+        navbar();
+        </script>
 </body>
 </html>
